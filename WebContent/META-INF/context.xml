@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+<Resource auth="Container"
+name="jdbc/mysql"
+type="javax.sql.DataSource"
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/ia683hw1"
+username="root"
+password="root"
+maxIdle="10"
+maxActive="200"
+maxWait="5"
+removeAbandoned="true"
+removeAbandonedTimeout="1200"
+/>
+</Context>

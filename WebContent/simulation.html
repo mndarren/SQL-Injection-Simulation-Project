@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SQL Injection Attack Simulation</title>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="resources/js/app.js"></script>
+    <script type='text/javascript' src='resources/js/mobile.js'></script>
+    <script type='text/javascript' src='resources/js/function.js'></script>
+    <script type='text/javascript' src='resources/js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='resources/js/loginInfo.js'></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/mobile.css">
+	
+</head>
+<body>
+	 <div id="header">
+		<h1><a href="index.html">SQL Injection Attack Simulation
+		<span>IA 683 Assignment 1</span></a></h1>
+		<ul id="navigation">
+			<li class="current">
+				<a href="home.html">Home</a>
+			</li>
+			<li>
+				<a href="simulation.html">Simulation</a>
+			</li>
+			<li>
+				<a href="architecture.html">Architecture</a>
+			</li>
+			<li>
+				<a href="code.html">Code</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<span id="display"></span><br>
+	<center>
+		<img align="middle" height="200px" width="300px"  alt="Java" 
+		src="http://www.vpnfaqs.com/wp-content/uploads/2015/06/SQL-injection-vulnerability-found-in-Vbulletin-hosted-websites.png">
+	</center><br>
+	<h2>Test with and without Protection:</h2>
+	<div id="test">
+	<form id="formWithoutProtection">
+        <fieldset>
+            <legend>SQL Injection Test</legend>
+ 				<div style="width:100%">
+ 					<div style="float:left; width:100%">
+ 					<input type="radio" name="protection" value="without" checked> Without Protection
+  					<input type="radio" name="protection" value="with"> With Protection<br><br>
+                
+                    User Name:<input id="userName" type="text" name="userName" /><br>
+                    <lable for="userPassword">User Pass:</lable>
+                    <input id="userPassword" type="password" name="userPassword" /><br><br>
+                    
+                    <input id="buttonWithoutProtection" type="button" value="Submit" />
+                	</div>
+                </div>
+        </fieldset>
+    </form><br>
+    <div style="float:center; width=100%">
+            <legend>Response from MySQL DB:</legend><br>
+            <div id="ajaxResponse"></div>
+    </div>
+  	</div>
+	</div>
+	<div id="footer">
+		<div>
+			<span>14A Centennial Hall, SCSU | 2017 Spring</span>
+			<p>
+				&copy; 2017 by Team 1. All rights reserved.
+			</p>
+		</div>
+		<div id="connect">
+			<a href="https://freewebsitetemplates.com/go/facebook/" id="facebook" target="_blank">Facebook</a>
+			<a href="https://freewebsitetemplates.com/go/twitter/" id="twitter" target="_blank">Twitter</a>
+			<a href="https://freewebsitetemplates.com/go/googleplus/" id="googleplus" target="_blank">Google&#43;</a>
+			<a href="https://freewebsitetemplates.com/go/pinterest/" id="pinterest" target="_blank">Pinterest</a>
+		</div>
+	</div>
+</body>
+</html>

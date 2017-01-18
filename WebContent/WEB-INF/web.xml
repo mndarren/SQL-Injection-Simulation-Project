@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ 
+  <display-name>IA683</display-name>
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  <!-- <servlet>
+    <description>Get Information about Country - jQuery Ajax Request</description>
+    <display-name>CountryInformation</display-name>
+    <servlet-name>CountryInformation</servlet-name>
+    <servlet-class>com.scsu.ia.CountryInformation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CountryInformation</servlet-name>
+    <url-pattern>/CountryInformation</url-pattern>
+  </servlet-mapping> -->
+  
+  <servlet>
+    <description>Get Information about User - jQuery Ajax Request</description>
+    <display-name>UserInformation</display-name>
+    <servlet-name>UserInformation</servlet-name>
+    <servlet-class>com.scsu.ia.UserInformation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserInformation</servlet-name>
+    <url-pattern>/UserInformation</url-pattern>
+  </servlet-mapping>
+</web-app>
