@@ -13,13 +13,13 @@ Setting up 3 layers: UI, Logical, and DB<br/>
 Example
 --------
 1. Original page<br/>
-![alt orig]()
+![alt orig](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test_orig.PNG)
 2. Test case 1<br/>
-![alt test1]()
+![alt test1](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test1.PNG)
 3. Test case 2 (password is the same to user name)<br/>
-![alt test2]()
+![alt test2](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test2.PNG)
 4. Test case 3<br/>
-![alt test3]()
+![alt test3](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test3.PNG)
 
 
 Notes
