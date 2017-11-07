@@ -21,7 +21,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 /**
- * Servlet implementation class CountryInformation
+ * @purpose UserInformation Servlet is in charge of communicate with Client side
+ * @author Darren
  */
 public class UserInformation extends HttpServlet {
 	private static final long serialVersionUID = 1L;
