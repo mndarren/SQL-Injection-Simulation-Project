@@ -14,7 +14,11 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-
+/**
+ * @purpose DBManager is responsible for exchanging information with DB
+ * @author Darren
+ *
+ */
 public class DBManager {
 	User user = new User();
     Connection conn = null;            
@@ -66,7 +70,6 @@ public class DBManager {
     }
     
 	public JsonObject getInfoProtection(String userId,String userPass) {
-        
  
         try {      
             Context ctx = (Context) new InitialContext().lookup("java:comp/env");
