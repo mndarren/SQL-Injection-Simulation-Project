@@ -8,7 +8,11 @@ This project will create a simple web application to simulate SQL Injection atta
 Architecture
 -------------
 Setting up 3 layers: UI, Logical, and DB<br/>
-![alt architecture]()
+![alt architecture](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/WebContent/resources/image/architectureWeb.PNG)
+
+Example
+--------
+
 
 Notes
 ------
