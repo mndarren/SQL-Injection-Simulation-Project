@@ -20,11 +20,11 @@ Example
 ![alt test2](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test2.PNG)
 4. Test case 3(without protection)<br/>
 ![alt test3](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test3.PNG)
-5. Test case 5 (repeat 4 with protection)<br/>
+5. Test case 5 (repeat 3 with protection)<br/>
 ![alt test5](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test5.PNG)
-6. Test case 6 (repeat 3 with protection)<br/>
+6. Test case 6 (repeat 2 with protection)<br/>
 ![alt test6](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test6.PNG)
-7. Test case 7(repeat 2 with protection)<br/>
+7. Test case 7(repeat 4 with protection)<br/>
 ![alt test7](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test7.PNG)
 8. Test case 8(Common user login)<br/>
 ![alt test8](https://github.com/mndarren/SQL-Injection-Simulation-Project/blob/organize_code/others/test8.PNG)
